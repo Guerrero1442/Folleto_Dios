@@ -1,0 +1,7 @@
+.card-border:hover {
+    transform: scale(1.05);
+}
+.logo {
+    width: 300px;
+    height: 230px;
+}
