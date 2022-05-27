@@ -1,7 +1,14 @@
+body {
+    font-family: "Rubik", sans-serif !important;
+}
 .card-border:hover {
     transform: scale(1.05);
 }
 .logo {
     width: 300px;
     height: 230px;
+}
+.bandera {
+    width: 270px;
+    height: 190px;
 }

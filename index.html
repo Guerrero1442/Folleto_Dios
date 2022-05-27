@@ -4,6 +4,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Informe final</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="style.css" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -52,7 +55,7 @@
         </div>
         <!-- Carousel -->
         <!-- Graficos -->
-        <div class="container-fluid">
+        <div class="container-fluid bg-light">
             <div class="row text-center py-3">
                 <h3 class="fw-bold">Analisis de datos</h3>
             </div>
@@ -66,8 +69,7 @@
                     />
                 </div>
                 <div class="col-6">
-                    <h3 class="fw-bold">Datos</h3>
-                    <p class="fs-5">
+                    <p class="fs-5 mt-3">
                         En este informe se realizó un análisis a más de 140 países en el año 2021,
                         realizado por Mathurin Ache de los que cuales están divididos en 10 regiones
                         diferentes, estos no están divididos equitativamente y podemos observar la
@@ -81,14 +83,8 @@
             <!-- Mapa de calor -->
             <div class="row p-5">
                 <div class="col-6">
-                    <h3 class="fw-bold">Datos</h3>
-                    <p class="fs-5">
-                        En este informe se realizó un análisis a más de 140 países en el año 2021,
-                        realizado por Mathurin Ache de los que cuales están divididos en 10 regiones
-                        diferentes, estos no están divididos equitativamente y podemos observar la
-                        presencia de cada región con la siguiente grafica. Viendo una gran presencia
-                        de países latinoamericanos y africanos perteneciendo al 38% de los países
-                        encuestados.
+                    <p class="fs-5 mt-3">
+                        Con el siguiente mapa de calor se analizo la relacion que tienen los datos en la tabla entre esos seleccione 5 dejando fuera algunos como generosidad o percepcion de corrupcion que eran los que menos relacion tenian con el puntaje de felicidad que es el dato mas imporante de todos y el que se busca analizar, de esta forma seleccione los datos que iba a utilizar para hacer mis informes.
                     </p>
                 </div>
                 <div class="col-6 text-center">
@@ -103,19 +99,19 @@
                 </div>
                 <div class="row text-center p-5">
                     <div class="col">
-                        <div class="row titulo justify-content-center">Cantidad</div>
+                        <div class="row titulo justify-content-center fw-bold">Cantidad</div>
                         <div class="row dato justify-content-center">149</div>
                     </div>
                     <div class="col">
-                        <div class="row titulo justify-content-center">Media</div>
+                        <div class="row titulo justify-content-center fw-bold">Media</div>
                         <div class="row dato justify-content-center">5.5</div>
                     </div>
                     <div class="col">
-                        <div class="row titulo justify-content-center">Desviacion estandar</div>
+                        <div class="row titulo justify-content-center fw-bold">Desviacion estandar</div>
                         <div class="row dato justify-content-center">1</div>
                     </div>
                     <div class="col">
-                        <div class="row titulo justify-content-center">Minimo</div>
+                        <div class="row titulo justify-content-center fw-bold">Minimo</div>
                         <div class="row dato justify-content-center">2.5</div>
                     </div>
                 </div>
@@ -124,8 +120,8 @@
         </div>
         <!-- problematica -->
         <div class="container-fluid">
-            <div class="row" style="background-color: #faf4f4">
-                <div class="col premisa py-5">
+            <div class="row bg-dark text-light">
+                <div class="col premisa py-3">
                     <h1 class="fw-bold">La religion dejara de existir</h1>
                     <p class="fs-5 my-3">
                         El declive de la religión esta directamente relacionado con el desarrollo
@@ -137,130 +133,149 @@
                     </p>
                     <a
                         href="https://www.elconfidencial.com/alma-corazon-vida/2013-08-19/seis-razones-por-las-que-la-religion-esta-en-declive-y-sera-minoritaria-en-2041_16429/"
+                        target="_blank"
                     >
-                        <button type="button" class="btn btn-outline-dark mt-3">Saber mas</button>
+                        <button type="button"  class="btn btn-outline-light mt-3">Saber mas</button>
                     </a>
                 </div>
                 <div class="col jesus">
                     <img src="./img/jesus.jpg" alt="" class="img-fluid" />
                 </div>
             </div>
-            <div class="row pb-5 justify-content-center">
-                <h2 class="text-center m-5 fw-bold">Paises menos religiosos</h2>
+            <div class="row justify-content-center bg-light">
+                <h2 class="text-center my-5 fw-bold">Paises menos religiosos</h2>
                 <!-- Card -->
-                <div class="card mx-5" style="width: 12rem">
-                    <img src="./img/bandera_noruega.bmp" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Noruega</h5>
+                <div class="col-sm">
+                    <div class="card  card-border mx-5" style="width: 16rem;">
+                            <img src="./img/bandera_noruega.bmp" class="card-img-top bandera" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Noruega</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">7.392</li>
+                                    <li class="list-group-item">11.053</li>
+                                    <li class="list-group-item">6</li>
+                                </ul>
+                            </div>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">7.392</li>
-                        <li class="list-group-item">11.053</li>
-                        <li class="list-group-item">6°</li>
-                    </ul>
                 </div>
                 <!-- Card -->
-                <div class="card mx-5" style="width: 12rem">
-                    <img src="./img/bandera_holanda.bmp" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Holanda</h5>
+                <div class="col-sm">
+                    <div class="card  card-border" style="width: 16rem;">
+                            <img src="./img/bandera_holanda.bmp" class="card-img-top bandera" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Holanda</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">7.464</li>
+                                    <li class="list-group-item">10.932</li>
+                                    <li class="list-group-item">5</li>
+                                </ul>
+                            </div>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">7.464</li>
-                        <li class="list-group-item">10.932</li>
-                        <li class="list-group-item">5°</li>
-                    </ul>
                 </div>
                 <!-- Card -->
-                <div class="card mx-5" style="width: 12rem">
-                    <img src="./img/bandera_inglaterra.bmp" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Inglaterra</h5>
+                <div class="col-sm">
+                    <div class="card  card-border" style="width: 16rem;">
+                            <img src="./img/bandera_inglaterra.bmp" class="card-img-top bandera" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Inglaterra</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">7.064</li>
+                                    <li class="list-group-item">10.707</li>
+                                    <li class="list-group-item">17</li>
+                                </ul>
+                            </div>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">7.064</li>
-                        <li class="list-group-item">10.707</li>
-                        <li class="list-group-item">17°</li>
-                    </ul>
                 </div>
                 <!-- Card -->
-                <div class="card mx-5" style="width: 12rem">
-                    <img src="./img/bandera_alemana.bmp" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Alemania</h5>
+                <div class="col-sm">
+                    <div class="card  card-border" style="width: 16rem;">
+                            <img src="./img/bandera_alemana.bmp" class="card-img-top bandera" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Alemania</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">7.155</li>
+                                    <li class="list-group-item">10.873</li>
+                                    <li class="list-group-item">13</li>
+                                </ul>
+                            </div>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">7.155</li>
-                        <li class="list-group-item">10.873</li>
-                        <li class="list-group-item">13°</li>
-                    </ul>
                 </div>
                 <!-- Card -->
-                <div class="row pb-5 justify-content-center">
-                    <h2 class="text-center m-5 fw-bold">Paises mas religiosos</h2>
+                <div class="row pb-5 justify-conter-center">
+                    <h2 class="text-center my-5 fw-bold">Paises mas religiosos</h2>
                     <!-- Card -->
-                    <div class="card mx-5" style="width: 12rem">
-                        <img src="./img/bandera_bangladesh.bmp" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Bangladesh</h5>
+                    <div class="col-sm">
+                        <div class="card  card-border mx-5" style="width: 16rem;">
+                                <img src="./img/bandera_bangladesh.bmp" class="card-img-top bandera" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bangladesh</h5>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">5.025</li>
+                                        <li class="list-group-item">8.454</li>
+                                        <li class="list-group-item">101</li>
+                                    </ul>
+                                </div>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">5.025</li>
-                            <li class="list-group-item">8.454</li>
-                            <li class="list-group-item">101°</li>
-                        </ul>
                     </div>
                     <!-- Card -->
-                    <div class="card mx-5" style="width: 12rem">
-                        <img src="./img/bandera_marruecos.bmp" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Marruecos</h5>
+                    <div class="col-sm">
+                        <div class="card  card-border" style="width: 16rem;">
+                                <img src="./img/bandera_marruecos.bmp" class="card-img-top bandera" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Marruecos</h5>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">4.918</li>
+                                        <li class="list-group-item">8.903</li>
+                                        <li class="list-group-item">106°</li>
+                                    </ul>
+                                </div>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">4.918</li>
-                            <li class="list-group-item">8.903</li>
-                            <li class="list-group-item">106°</li>
-                        </ul>
                     </div>
                     <!-- Card -->
-                    <div class="card mx-5" style="width: 12rem">
-                        <img src="./img/bandera_malawi.bmp" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Malawi</h5>
+                    <div class="col-sm">
+                        <div class="card  card-border" style="width: 16rem;">
+                                <img src="./img/bandera_malawi.bmp" class="card-img-top bandera" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Malawi</h5>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">3.6</li>
+                                        <li class="list-group-item">6.958</li>
+                                        <li class="list-group-item">144</li>
+                                    </ul>
+                                </div>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">3.6</li>
-                            <li class="list-group-item">6.958</li>
-                            <li class="list-group-item">144°</li>
-                        </ul>
                     </div>
                     <!-- Card -->
-                    <div class="card mx-5" style="width: 12rem">
-                        <img src="./img/bandera_yemen.bmp" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Yemen</h5>
+                    <div class="col-sm">
+                        <div class="card  card-border" style="width: 16rem;">
+                                <img src="./img/bandera_yemen.bmp" class="card-img-top bandera" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Yemen</h5>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">3.658</li>
+                                        <li class="list-group-item">7.578</li>
+                                        <li class="list-group-item">141</li>
+                                    </ul>
+                                </div>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">3.658</li>
-                            <li class="list-group-item">7.578</li>
-                            <li class="list-group-item">141°</li>
-                        </ul>
                     </div>
                     <!-- Card -->
             </div>
-            <div class="row" style="background-color: #faf4f4">
+            <div class="row bg-dark">
                 <div class="col jesus">
                     <img src="./img/estados_unidos.jpg" alt="" class="img-fluid" />
                 </div>
-                <div class="col premisa pt-3">
+                <div class="col premisa pt-3 text-light">
                     <h1 class="fw-bold">El caso americano</h1>
                     <p class="fs-5 my-3">
                         El ratio de los ateos no solo  aumenta en los paises con mayor calidad de vida, lo hace también en los paises con un mayor peso estatal, si medimos este  a través de la carga tributaria. La ecuación seria la siguiente a mas impuestos, mayor estado del bienestar es igual a un mayor porcentaje de ateos. La practica de la religión disminuyen en los paises con un mejor sistema sanitario, educativo y donde los ingresos se distribuyen de manera equitativa, esto explica porque estados unidos aunque tenga una buena base económico posee tantos religiosos.
                     </p>
                     <a
                         href="https://www.eldiario.es/internacional/theguardian/estadounidenses-muriendo-permitir-tratamientos-necesitan_1_1089525.html"
+                        target="_blank"
+
                     >
-                        <button type="button" class="btn btn-outline-dark mt-3">Saber mas</button>
+                        <button type="button" class="btn btn-outline-light mt-3">Saber mas</button>
                     </a>
                 </div>
             </div>
@@ -270,33 +285,33 @@
         <!-- Recursos -->
         <div class="container-fluid">
             <div class="row text-center mb-5">
-                <h4 class="fw-bold">Recursos</h4>
+                <h4 class="fw-bold my-5">Recursos</h4>
             </div>
             <div class="row mb-5">
                 <div class="col-sm">
                     <div class="card  card-border" style="width: 18rem;">
-                        <a href="https://www.youtube.com/playlist?list=PLi7o1wxn_zSScqAwbP4jXF2RUpUUN9ekF">
+                        <a href="https://www.youtube.com/playlist?list=PLi7o1wxn_zSScqAwbP4jXF2RUpUUN9ekF" target="_blank">
                             <img src="img/bootstrap5.bmp" class="card-img-top logo" alt="...">
                         </a>
                       </div>
                 </div>
                 <div class="col-sm">
                     <div class="card  card-border" style="width: 18rem;">
-                        <a href="https://www.youtube.com/playlist?list=PLGX39GU9MAerrkiY_NY4PWfKD5IIEQvoR">
+                        <a href="https://www.youtube.com/playlist?list=PLGX39GU9MAerrkiY_NY4PWfKD5IIEQvoR" target="_blank">
                             <img src="img/powerbi.bmp" class="card-img-top logo" alt="...">
                         </a>
                       </div>
                 </div>
                 <div class="col-sm">
                     <div class="card  card-border" style="width: 18rem;">
-                        <a href="https://www.youtube.com/watch?v=IVDaUv7KsMI">
+                        <a href="https://www.youtube.com/watch?v=IVDaUv7KsMI" target="_blank">
                             <img src="img/azure.bmp" class="card-img-top logo" alt="...">
                         </a>
                       </div>
                 </div>
                 <div class="col-sm">
                     <div class="card  card-border" style="width: 18rem;">
-                        <a href="https://www.youtube.com/watch?v=PpLtEo3TvFw&t=2157s">
+                        <a href="https://www.youtube.com/watch?v=PpLtEo3TvFw&t=2157s" target="_blank">
                             <img src="img/python.bmp" class="card-img-top logo" alt="...">
                         </a>
                       </div>
